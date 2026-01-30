@@ -72,7 +72,7 @@ const Contact: React.FC = () => {
                      <span>{RESTAURANT_DATA.hours.dinner}</span>
                    </p>
                    <p className="text-gray-500 text-sm mt-3 flex items-center">
-                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span> Ouvert 7j/7
+                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span> Tous les jours sauf mercredi
                    </p>
                 </div>
               </div>

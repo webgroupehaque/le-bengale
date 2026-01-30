@@ -40,9 +40,8 @@ const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage, cartCount, o
           className="cursor-pointer flex flex-col items-start group"
         >
           <h1 className="text-2xl md:text-3xl font-serif font-bold text-white group-hover:text-bengal-gold transition-colors">
-            La Porte
+            Le Bengale
           </h1>
-          <span className="text-xs text-bengal-gold tracking-[0.2em] uppercase">du Bengale</span>
         </div>
 
         {/* Desktop Links */}

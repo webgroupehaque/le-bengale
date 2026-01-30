@@ -30,8 +30,6 @@ const Home: React.FC<HomeProps> = ({ setPage }) => {
         {/* Content */}
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto mt-16">
           <h1 className="font-serif text-5xl md:text-7xl lg:text-9xl text-white mb-6 leading-tight animate-fade-in-up drop-shadow-xl">
-            Restaurant Indien à Nancy
-            <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-bengal-gold via-orange-400 to-bengal-spice">
               Le Bengale
             </span>
@@ -66,7 +64,7 @@ const Home: React.FC<HomeProps> = ({ setPage }) => {
               <Clock className="text-bengal-gold group-hover:text-bengal-dark" size={28} />
             </div>
             <h3 className="text-white font-serif text-xl mb-1">Horaires</h3>
-            <p className="text-gray-400">Ouvert 7j/7</p>
+            <p className="text-gray-400">Tous les jours sauf mercredi</p>
             <p className="text-bengal-gold font-bold mt-1">{RESTAURANT_DATA.hours.lunch}</p>
             <p className="text-bengal-gold font-bold">{RESTAURANT_DATA.hours.dinner}</p>
           </div>
@@ -91,17 +89,6 @@ const Home: React.FC<HomeProps> = ({ setPage }) => {
         </div>
       </section>
 
-      {/* Section SEO */}
-      <section className="py-16 bg-bengal-dark/50">
-        <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-serif text-white mb-6 text-center">
-            Votre Restaurant Indien de Confiance à Nancy
-          </h2>
-          <p className="text-bengal-cream text-lg leading-relaxed text-center">
-            Découvrez les saveurs authentiques de l'Inde au cœur de Nancy. Le Bengale vous propose une cuisine indienne traditionnelle : tandoori, curry, biryani, naan fraîchement préparés. Commandez en ligne et profitez d'une livraison rapide dans tout Nancy.
-          </p>
-        </div>
-      </section>
     </div>
     </>
   );
