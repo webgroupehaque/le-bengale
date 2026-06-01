@@ -2,7 +2,7 @@ import { RestaurantInfo, MenuItem } from './types';
 
 export const RESTAURANT_DATA: RestaurantInfo = {
   id: 'le-bengale',
-  name: 'Le Bengale',
+  name: 'Nabab Jada',
   address: '51 Rue de la Hache, 54000 Nancy',
   phone: '03 83 37 56 70',
   email: 'lebengale1@gmail.com',

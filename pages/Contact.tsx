@@ -10,8 +10,8 @@ const Contact: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Contact - Le Bengale Nancy | Réservation Restaurant Indien"
-        description="Contactez le restaurant indien Le Bengale à Nancy"
+        title="Contact - Nabab Jada Nancy | Réservation Restaurant Indien"
+        description="Contactez le restaurant indien Nabab Jada à Nancy"
         keywords="contact restaurant indien nancy, horaires restaurant indien nancy"
         url="https://le-bengale.netlify.app/contact"
       />
@@ -90,7 +90,7 @@ const Contact: React.FC = () => {
               allowFullScreen 
               referrerPolicy="no-referrer-when-downgrade" 
               src={mapSrc}
-              title="Le Bengale Map"
+              title="Nabab Jada Map"
               className="group-hover:grayscale-0 transition-all duration-500"
             ></iframe>
           </div>

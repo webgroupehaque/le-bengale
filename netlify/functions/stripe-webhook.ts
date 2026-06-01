@@ -203,7 +203,7 @@ export const handler = async (event: any) => {
         }).join('\n');
 
         const mailOptions = {
-          from: `"Le Bengale" <${process.env.GMAIL_USER}>`,
+          from: `"Nabab Jada" <${process.env.GMAIL_USER}>`,
           to: process.env.RESTAURANT_EMAIL || 'lebengale1@gmail.com',
           subject: `🔔 Nouvelle commande #${orderCode} - ${metadata.customerName}`,
           html: `
@@ -278,13 +278,13 @@ export const handler = async (event: any) => {
         }).join('');
 
         const clientMailOptions = {
-          from: `"Le Bengale" <${process.env.GMAIL_USER}>`,
+          from: `"Nabab Jada" <${process.env.GMAIL_USER}>`,
           to: session.customer_email!,
-          subject: `✅ Confirmation de votre commande #${orderCode} - Le Bengale`,
+          subject: `✅ Confirmation de votre commande #${orderCode} - Nabab Jada`,
           html: `
             <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background: #ffffff;">
               <div style="background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%); padding: 30px; text-align: center;">
-                <h1 style="color: #ffffff; margin: 0; font-size: 28px;">🍛 Le Bengale</h1>
+                <h1 style="color: #ffffff; margin: 0; font-size: 28px;">🍛 Nabab Jada</h1>
                 <p style="color: #fed7aa; margin: 10px 0 0 0; font-size: 14px;">Restaurant Indien - Nancy</p>
               </div>
 
@@ -365,7 +365,7 @@ export const handler = async (event: any) => {
 
                 <p style="text-align: center; color: #9ca3af; font-size: 12px; margin-top: 40px;">
                   Merci de votre confiance !<br/>
-                  L'équipe du Bengale
+                  L'équipe Nabab Jada
                 </p>
               </div>
             </div>

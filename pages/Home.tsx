@@ -19,7 +19,7 @@ const Home: React.FC<HomeProps> = ({ setPage }) => {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1585937421612-70a008356f36?q=80&w=2070&auto=format&fit=crop" 
-            alt="Restaurant indien Le Bengale" 
+            alt="Restaurant indien Nabab Jada" 
             className="w-full h-full object-cover scale-105 animate-pulse-slow"
           />
           {/* Warm Gradient Overlay */}
@@ -31,7 +31,7 @@ const Home: React.FC<HomeProps> = ({ setPage }) => {
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto mt-16">
           <h1 className="font-serif text-5xl md:text-7xl lg:text-9xl text-white mb-6 leading-tight animate-fade-in-up drop-shadow-xl">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-bengal-gold via-orange-400 to-bengal-spice">
-              Le Bengale
+              Nabab Jada
             </span>
           </h1>
           <p className="text-bengal-cream text-lg md:text-2xl font-light mb-10 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-100 drop-shadow-md">

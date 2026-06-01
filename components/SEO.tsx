@@ -9,7 +9,7 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = "Le Bengale - Restaurant Indien à Nancy | Commande en Ligne",
+  title = "Nabab Jada - Restaurant Indien à Nancy | Commande en Ligne",
   description = "Restaurant indien authentique à Nancy. Commandez en ligne vos plats préférés : tandoori, curry, biryani, naan. Livraison rapide à Nancy et alentours.",
   keywords = "restaurant indien nancy, cuisine indienne nancy, tandoori nancy, curry nancy, biryani nancy, livraison indien nancy",
   image = "https://le-bengale.netlify.app/og-image.jpg",
@@ -18,7 +18,7 @@ export default function SEO({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Restaurant",
-    "name": "Le Bengale",
+    "name": "Nabab Jada",
     "image": image,
     "description": description,
     "address": {
@@ -81,7 +81,7 @@ export default function SEO({
       <meta name="robots" content="index, follow" />
       <meta name="language" content="French" />
       <meta name="revisit-after" content="7 days" />
-      <meta name="author" content="Le Bengale" />
+      <meta name="author" content="Nabab Jada" />
       <link rel="canonical" href={url} />
       
       {/* Structured Data (JSON-LD) */}

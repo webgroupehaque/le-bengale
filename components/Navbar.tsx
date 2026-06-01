@@ -40,7 +40,7 @@ const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage, cartCount, o
           className="cursor-pointer flex flex-col items-start group"
         >
           <h1 className="text-2xl md:text-3xl font-serif font-bold text-white group-hover:text-bengal-gold transition-colors">
-            Le Bengale
+            Nabab Jada
           </h1>
         </div>
 

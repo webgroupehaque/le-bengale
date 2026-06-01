@@ -174,7 +174,7 @@ function App() {
         {/* Simple Footer */}
         <footer className="bg-black py-8 border-t border-gray-900 mt-auto">
           <div className="container mx-auto px-6 text-center">
-            <h2 className="text-xl font-serif text-bengal-gold mb-2">Le Bengale</h2>
+            <h2 className="text-xl font-serif text-bengal-gold mb-2">Nabab Jada</h2>
             <p className="text-gray-600 text-sm">51 Rue de la Hache, 54000 Nancy</p>
           </div>
         </footer>

@@ -30,7 +30,7 @@ const Order: React.FC<OrderProps> = ({ addToCart }) => {
   return (
     <>
       <SEO 
-        title="Commander en Ligne - Restaurant Indien Le Bengale Nancy"
+        title="Commander en Ligne - Restaurant Indien Nabab Jada Nancy"
         description="Livraison rapide à Nancy"
         keywords="commander indien nancy, livraison indien nancy, menu indien nancy"
         url="https://le-bengale.netlify.app/order"
@@ -91,7 +91,7 @@ const Order: React.FC<OrderProps> = ({ addToCart }) => {
                         <div className="h-48 bg-bengal-dark relative overflow-hidden group-hover:opacity-90 transition-opacity">
                           <img
                             src={item.image}
-                        alt={`${item.name} - Plat indien authentique au restaurant Le Bengale Nancy`}
+                        alt={`${item.name} - Plat indien authentique au restaurant Nabab Jada Nancy`}
                             className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                           />
                         </div>
